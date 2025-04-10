@@ -8,10 +8,12 @@
     scroll-behavior: smooth;
     transition: all 1s linear;
 }
- body{
-     overflow-x: hidden;
-     
+
+body{
+  overflow-x: hidden;
+  width: 100%;
 }
+
 
 
 
@@ -35,7 +37,7 @@
 /* global css */
 
 .container{
-     padding: 50px 80px;
+     padding: 50px 100px;
 }
 
 .btn{
@@ -184,8 +186,7 @@
      position: relative;
      top: -11rem;
      z-index: -1;
-     display: block;
-     margin: 0 auto;
+
 }
 
 .hero-text{
@@ -233,7 +234,7 @@
 }
 .hero .submit{
      margin-top: 2px;
-     cursor: pointer !important;
+     cursor: pointer;
 }
 
 .people{
